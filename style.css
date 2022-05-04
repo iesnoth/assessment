@@ -1,7 +1,34 @@
 /* add code here to make your image 300px tall, have a border-radius of 25px, and a 1px black solid border.*/
+body{
+  background-image:url("3420.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-color: rgb(212, 190, 164);
+}
 
+#movie {
+  width: 300px;
+  border-radius:25px;
+  border:1px solid black;
 
+}
 
 /* add code here to change the color and font family of your movie's movie/title */
-
+h1{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color: rgb(39, 93, 118);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+}
 /* Bonus: change the color of your list elements */
+
+ol{
+  background-color: bisque;
+}
+
+li {
+  color:darkcyan
+}
+
+
+/* https://filmgrab.files.wordpress.com/2012/10/3420.jpg */
