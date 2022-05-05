@@ -4,7 +4,22 @@ body{
   background-repeat: no-repeat;
   background-size:cover;
   background-color: rgb(212, 190, 164);
+  padding-left: 13em;
 }
+
+ul.navbar {
+  list-style-type: none;
+  position: absolute;
+  top: 2em;
+  left: 1em;
+  width: 9em }
+
+  ul.navbar li {
+      background: rgb(60, 85, 92);
+      margin: 0.5em 0;
+      padding: 0.3em;
+      border-left: 1em solid rgb(217, 212, 194)
+  }
 
 #movie {
   width: 300px;
@@ -22,6 +37,10 @@ h1{
 }
 /* Bonus: change the color of your list elements */
 
+p{
+  background-color: bisque;
+}
+
 ol{
   background-color: bisque;
 }
@@ -30,5 +49,18 @@ li {
   color:darkcyan
 }
 
+/*unvisited link*/
+a:link {
+  color:rgb(228, 227, 205)
+}
 
-/* https://filmgrab.files.wordpress.com/2012/10/3420.jpg */
+/*visited link*/
+a:visited {
+  color:rgb(177, 34, 5)
+}
+
+/*mouse over link*/
+a:hover {
+  color:rgb(142, 134, 89)
+}
+

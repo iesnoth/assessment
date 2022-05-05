@@ -1,4 +1,35 @@
+body{
+    background-image:url("3420.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color: rgb(212, 190, 164);
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+
 img{
     width:800px;
     border-radius:25px;
 }
+
+p{
+    background-color: bisque;
+}
+
+/*unvisited link*/
+a:link {
+    color:rgb(228, 227, 205)
+  }
+  
+  /*visited link*/
+  a:visited {
+    color:rgb(177, 34, 5)
+  }
+  
+  /*mouse over link*/
+  a:hover {
+    color:rgb(142, 134, 89)
+  }
+  
+  
